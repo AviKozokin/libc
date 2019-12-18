@@ -2480,7 +2480,7 @@ extern "C" {
     pub fn getutxline(ut: *const utmpx) -> *mut utmpx;
     pub fn pututxline(ut: *const utmpx) -> *mut utmpx;
     pub fn setutxent();
-    pub fn endutxent()
+    pub fn endutxent();
 
     pub fn endutent();
     pub fn getutent() -> *mut utmp;
